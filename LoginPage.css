@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+*{
+font-family: 'Bad Script', cursive !important;
+box-sizing: border-box;
+}
+:root{
+    --body-color:linear-gradient(90deg, rgba(213,141,226,1) 0%, rgba(236,159,222,1) 50%, rgba(233,213,233,1) 100%);
+}
+h1, p{
+    text-align: center;
+}
+body{background: var(--body-color);
+}
+Main{
+    width: 300px;
+    height: fit-content;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+}
+input{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    padding: 5px 10px 10px 0px ;
+    margin: 5px 10px 10px 0px;
+}
+input[type=submit]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: bold;
+    border: 2px solid plum;
+    border-radius: 5px;
+    width: 200px;
+    padding: 1px;
+    margin: auto;
+    color: white;
+    background: linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(112,217,207,1) 42%, rgba(114,217,208,1) 43%, rgba(233,207,236,1) 100%);
+}
+input[type=submit]:hover{
+    background: rgb(204, 235, 250);
+}
+.forgotpassword, a{
+        text-align: end;
+        color: black;
+        background: white;
+        text-decoration: none;
+    }
+    .signup, a{
+        text-align:center;
+        color: black;
+    }
+img{
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
